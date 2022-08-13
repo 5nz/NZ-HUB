@@ -1,32 +1,167 @@
-if not game:IsLoaded() then game.Loaded:Wait() end
---anti Kick
-local GC = getconnections or get_signal_cons
-if GC then
-print("good exploit:)")
-    for i,v in pairs(GC(game.Players.LocalPlayer.Idled)) do
-        if v["Disable"] then
-            v["Disable"](v)
-        elseif v["Disconnect"] then
-            v["Disconnect"](v)
-        end
-    end
-else
-    print("ass exploit")
-    local vu = game:GetService("VirtualUser")
-    game:GetService("Players").LocalPlayer.Idled:connect(function()
-        vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-        wait(1)
-        vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-    end)
-end
-
-------------------------------------------------------------------------------------------------------------------------
-
-
-local URL = "https://raw.githubusercontent.com/5nz/NZ-HUB/main/Games/"
 local games = {
     [4483381587] = "Baseplate"
 }
+
+_, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
+
+
+,nil,nil;(function() _msec=(function(e,n,o)local q=n[(0x11a-188)];local A=o[e[(665+-#{'nil','nil',(function()return{','}end)();88;(function()return#{('mMHllO'):find("\72")}>0 and 1 or 0 end);141,1})]][e[((1734-0x39c)+-#[[Lana Rhoades]])]];local c=(10+-#{(function()return{','}end)(),25;'nil','}';'nil';(function()return#{('LoPBkb'):find("\80")}>0 and 1 or 0 end)})/((-#[[Lana Rhoades]]+((-33-0x1b)+0x29))+33)local r=((0xf3-(-#[[Me be like at 5am in the morning]]+(541-0x144)))-56)-(6+-#{1;'}';'}',189;189})local v=o[e[(-#[[impulse is hot]]+(0x754e/154))]][e[(0x285-363)]];local D=(39/(0x194a/(-0x5d+259)))+(-0x75+119)local k=o[e[(-#{{};12,'nil';(function()return{','}end)(),'nil'}+604)]][e[((0xbce8/52)+-#'moon sex is better than lua guard')]]local d=(160/0x50)-((0x5f+((-0x9be/58)+-#'no meme strings access moment'))+-22)local t=(-#{",",57,(function()return#{('PHPLlH'):find("\80")}>0 and 1 or 0 end);29;57}+7)local O=((((-0x17d8/(-116+0x90))+0x63)+0x96)+-#'use luraph if want lost money')local x=(-0x39+((-0x34+(0x147+-73))-0x8f))local s=(122-((-0x13+(731-0x17e))-210))local u=((-#{'}';1,95,(function()return#{('pOmppH'):find("\109")}>0 and 1 or 0 end);(function()return{','}end)(),'nil'}+89)-0x51)local m=(8+-#{'}';'}','}';'nil','}',111})local g=((((-84+0x12)+-0x18)+0x82)-0x25)local f=(((-#{35,'}','nil',35;(function()return{','}end)()}+103)-86)+-#"0nly 1337")local b=(((-11+(-0x33e6/146))+0xe8)-127)local w=((-79+((241+(30-0x48))+-107))+-#[[send nudes]])local U=(-#{1;{},1,(function()return#{('PompmP'):find("\109")}>0 and 1 or 0 end)}+7)local h=((((((-0x18e+-56)+0xb1)+-#"Hey skid")/0x5)+-#"Omg guys")+0x44)local z=(10+-#{{};80;(function()return#{('lkbMPp'):find("\98")}>0 and 1 or 0 end);'nil','}','nil'})local P=(0x78/(-#[[impulse was here omg]]+(196-(-#'amongass'+(0x149-(-#{'}';{};{},",",",";(function()return#{('BlKpOk'):find("\75")}>0 and 1 or 0 end)}+181))))))local N=(-84+(((-#[[Niggabyte]]+(0x18+-82))+0xa)+0x91))local L=(9+-#{'nil',(function()return#{('kpfKLb'):find("\102")}>0 and 1 or 0 end);",";'nil',","})local C=((0xc6-(176+(-#[[algebra]]+((-0xa410/150)/10))))+-#'Rip Technoblade but he truly never dies in our hearts')local B=(-#{(function()return#{('fMpmom'):find("\112")}>0 and 1 or 0 end);'}';'nil'}+7)local K=e[(1399+-#{(function()return#{('LlkkHl'):find("\107")}>0 and 1 or 0 end);(function()return#{('LlkkHl'):find("\107")}>0 and 1 or 0 end),71,71})];local R=o[e[((0xa365/191)+-#'If not skid then return hasbitches end')]][e[(0x9cf9/95)]];local T=o[(function(e)return type(e):sub(1,1)..'\101\116'end)('ххрстоше')..'\109\101'..('\116\97'or'фяпхфшыс')..e[(1245-0x286)]];local j=o[e[(-#[[33 cocks in my mouth]]+(0x10524/108))]][e[(-#{31;{};(function()return{','}end)();{}}+978)]];local y=(-#'Negro'+(0x3cd/139))-(((0x13b0/48)-63)-0x28)local S=((0x5d+((-128-(-0xe58/68))+-#'mama mo'))+-#'IP grabbed')-(0x74+-114)local H=o[e[((18430/0x61)+-#'rule 2 ok')]][e[(0x152df/243)]];local l=function(o,e)return o..e end local p=(-#'Monkey balls'+(0x40+-48))*((93-((0x1df-(0x5dcc/92))-0x88))+-#[[mama mo]])local Y=o[e[(-#[[suck my balls]]+(0x926-1202))]];local i=(0x19e/207)*(-#[[Lana Rhoades]]+(29960/((-100+0x2)+0x138)))local I=(0x813-1043)*(0x66+(-96+(94+-0x62)))local F=(-0x7b+((-0x41+((0x343-468)+-#"never gonna give you up never gonna let you down"))+-#'how to use visual studio jk jk dont take it seriously what 6 hours per messange'))local _=(68/(0x9f+(-23750/0xbe)))*(0x60+-94)local M=o[e[(-#"meme strings be like"+(2270-0x499))]]or o[e[(1323-0x2d4)]][e[(-#"meme strings be like"+(2270-0x499))]];local a=(((-3416/0x7a)+-0x13)+303)local e=o[e[(0x6e58/22)]];local j=(function(a)local i,n=2,0x10 local o={j={},v={}}local l=-d local e=n+r while true do o[a:sub(e,(function()e=i+e return e-r end)())]=(function()l=l+d return l end)()if l==(p-d)then l=""n=y break end end local l=#a while e<l+r do o.v[n]=a:sub(e,(function()e=i+e return e-r end)())n=n+d if n%c==y then n=S j(o.j,(H((o[o.v[S]]*p)+o[o.v[d]])))end end return k(o.j)end)("..:::MoonSec::..яшертыуиопасдфгхдефеядсшыууяаытыгаохиитыгфпаруртшусиыдяшггсяышхппхгоотепдггаифшхдаиушссдрхфхяигхоаехфтдяорриссиеетдфуыятасгрпдрыфаихуыеффеыоряфшитяоохыеяпарфопяеадхитуыердтудшедтыпясаеыогххифгиашхдтсуухшадууушусдыяхупсгеояеыдасеифефдиифяфссхыаярдгшоууфрхфппряыфрисшшсоыфпгтегиодпяфпоееядыуаыхеясаиияосауяоарафдошеушядруысфуыятаптгтрятпгысгдпгфтиашсдяуыиашядууфяртггоофреефгыпррагяишешахиеяпссотпхроффоеиярагиоыеудыыояхдшуахгсяфсосеффеииуреуфаягспыыхапхсстахапгтсгфоиедфяиусхысяяаыафыихыасрхгупдрегтидфшушяуасстыгяфаеырхспеяшфхотхшдгыфхупгефшыпхуегтпхфдопердоуфыыеяфяуаеясяыгяоаетохтыффеиршосфдпуошпсуодартягыоаашедфдииетсоипшыосяраштугсфраттдгтусргфияссаыфяеаиссутыфтпгяоыеашффппярефеиуеядшыфшяосрпфаигяпояшхдтупуяшодыудшуадгтптруфсояоурафофсдяыгяраосыууясадшссыыаууиашасхутыдшшдеуаяеаигходршфусфохепгрыуефдсуффиыягфпериеыхтиерафшипшхдряиахтгхрпосыыегаофрфгешрдоуыяаахпиыаяаахтаггпытеитрыдуусшяяосхирхтссыияяпптххсииефгроахгауиияссдыпхгтогрооефрсгаооетфеиаердаудятрдхшогррфодыпиртдфихеыдтутудыогхптрптыгопдрягшоыеадуупшхспутяосегиодегфриоыгшесяишсдыухсаяпшыпхепытыдгохепгуииеперяфаутсхяфуопруфрпеетфхисяофдиушагихапстягыфуптрагфешдсуояфсеаяуаштсатдхгпорхоеегдпугшрясфеитяфафытхсоеыыггхшфпитшпсгаауфешаыыдягситхггпыяпотшхдтупыпшдссуохесртфяапстфорехдаухштхфдииуяссдуяяыашттхаегфыиышасхсшиошдсоишрртугиодршрффдофеапгеистыпхгшрапуяяупдрггаптхпфротеиогиуяадыееяфоошысгиерсссгедауыяаахсрыошшаотсяеатрдгшпеофиршясыыаыеяиссыряшихыегсшхфеишшуссашиешпдтуеяффтггооеффефоохртоуияеодыууягафыфоургфоифееяофяигшхдпыеяасиыгяопгшеоаеодфиеуфешдтиашадееопфтпгтопегшпгшохеисаишерддуяшеипгфохртфпдаооехуышссиыдяшяфадыфхаафттхепдрраишгсфуеяихпдяутяуаыыгышрафтипшгеуфяиешыдеыхяесеыихыаифеотетдпугореадуияшсгехипурсгяфшппряфоигеехпяфафыехигесяыоггпыфоигшхдтупоешддыуепатсгдпшрушггшпорерушоспыгярхоагутясрххяоуесфяфпофеыотиеешируяхгстытхопутпггытдгуаяхстпсуфяидшрряшапрхгушгфяияшысадхуышедяууыхтыгеоиедррфхохггдиоешгдухдаетргоофопрогыпыдпухшясыыатпшисоыдосрхффоееишяфаопшддеишяхшухгппрггрфеаятшгыуяеудпиаштсапяауттгпогистдхшпеягфшоыгауеяяаытаыыяуаотсфыухяхфишасдушяушпсыудххтогтопегергтигрсддигходсутуитпгаохртешгротедртеясиыдяшяфсаыххпыаттхдппрагеошршпдряахуяхупстятдгхаррргдоиеафуугшгсуыхшястыгдтрпфаихетшшфритшдхряоаитдхшяпартшгппптурсеесгуряоятдшупяистыугдпрратшеидтупягхсддишшепиысятааяхоыеыдаухыфшфдауоядсехапирдгшдопартггушрофуиоауутхопфтерпхшаштегтореуфгитшоадиешесатгхппдароуеудсияыфепдфупееоеярпорфгедхашргфиопехдгугяшдруошепртпххаупготешдуусуршадгыеяисоуяхорягооееиддффисшддтуашддеуохасеыуоярсфеиишдеодииошыдоыхяфситгсфпстдхшпеогишшшсуыстряфахуеяояягрореодфдиысеыдгроарыдхыпархрохспирафхоертадоешудтухрутагаохртесгиоарягшшыдеыдяшаупиыххопстсфтпыехгдифехыаштадышхухдсятгспаурпфсоурефииоеыоуушаатугспяиотегяпуеафшоишфдххасятдхшпусетххипытегтиаешдояясуыехипдпотихипстогаотепдфатсаыохфаеасыыятпптахеопуяиуштспыгуушиссуяхдпхыытфрафяиышаяядоуфхрдпыфяссуехгфпхрагиоырияяшрстыпхгяаапыахиоуфдошеудфипшысаыхяуаптгхрааухгеоиедятиушсдяуыяаахытхппгтргоофрефиидеедуусшясыыашшаттпгхпрушффоееифгишшусдуяяхаатххтсхрггропеффсиишфдшиаясстуохапхттхеогртфоошрыдиудшшдяысяшаытаядптрпфготеодфиешпдыушяиасыяхыпарххуспегфтиортдеуияддрыухсаштыяяохртфппгердоугшесоыдешаутсхяпырсфхоуепфяиршгсфуеяоадурхупдтягыоарргиипшгдриаяфсрыияясттугспятсфаояетфсифшрспыфшоаитдхшсутдгяоуеафяитыосгореуафырхипфтшегосряхсиаеядтусягстыояхсштигфпшыдфсояеыфяпештсаыгшфаотгхепирдгыппесфяиыртсхуыяпсеуухопфтеяеодрефуофехдыусяхяуыпхгартгшшперофдпхеуддияшусауршиаптгхрсурфгроирягтиушсдяашяасяытясафтргаофияфиидешфопдшясоыаыяаттпггпрроффотеидгишшиссиеяыааышхтфхрггрооеффеиишхдшуияссяыыядпхттгфогтпфоифеегиудшшсаысятаыыыгхстрпфгоиеофшиерхсдошяуасытхыпгрхрсопегфриоеядеусядсшыухсаятыгдохртфпоеерддояшесиыдрааутдхясытсфхосепфтируесфуоесадыохудптягуоаряфтифршдруояфгяыихфаштахгпярыфасшетдаугррдпыфяпаиыехшгярсгяпгеафиитшхсгуряоафиохиартшгоосршфыигредтупяггдыохгаеуихфпшрффсоуеыхпухшаффыгяааоорхепордгеоуехгриышасхпаяпахырхдсятегиодуафуидеягыисяхссыпятариигфпеыяфдопеуфшияшысаыхеаапыыхрпарфгроирехуиушфдяохяасяытхспгтихсофрефиауешдиусштдоыаххатпиггптрогхпшеидгишытссуяяысдоехтпдргшпооеффеиишддшуояссеыыхспхыугпогрыфопреедиудршсуысяеаытдгхдшрпхяореофшиееусдушяуасыяхыпдрхгоопряфроашфдеуаяддиыухсаяуыгаохрифпошерхыуфетсиыдяуауыухяпырафхотепфширшфсфутяиддуехупгтягооаыифтппехдрусяфсыыиырашууяппярофаоеетреугшпдяыфяиаитфхшпирсгшоыеагоитшпсгуыяоафыехидутшгпосрыфыисшхдтияягсыыохфаетигдпшырфсояеыдсухштспушяраотфхыпхрдгшоуерфуиышасхфиифеясдууятрагсодршфуффппрпдхитдяыпхгаропрдгпоутыфипеегссохепдфхдаптгхрпофргыоиедфшгппяееедягахытхпяшастпххуыфиидешдуусшяаыппураттпггпрроффхеуигфишшуссиештааыехтпдрггрооефгеиишхдшупяссшыыяядеттгдографоигеедиудшыдпысяяаыышгхпырпхяпееофяиешасдушяуасуяхыпфрхгиопехфриорпдеуаядсрыухсаяыияшохрифпоыердоуфетгуыдяыаутххяпырахшотепфриршхсфуеяиадышхуаштягыоаехфтосшгдрухяфспыихдаштагспярафапдетдаугшрфшыфясаиыяхшпурсхесреафпитшасгуряодфыехиаутшхяосруфыпашхдтитягсрыояеаетигдпштрфсооеыдаухштспыгшшаоыыхепирдгшоуесфсиыеосхууяпдгырхоаотехеодррфуисеядыиыяхсуыпяяартогфпетефдодеудгиярысаыхяхапыпхраярфгеоиедфсиушфдяуияаахытхпаетрхшофрдфиидешдуитшясоыаяшатупггпррсффосеифтишшадоуяяаааыдхтпаргхыпиеффииишхдшууяссяиыхаатттгаогрифоифргдиияшшсоысяяаытаядптрпфготеодфиешисдушяуасыахыпархааопегфриошфдеуиядтиушхсаятыедятаотфгфпшхасшошегдаятадтсхяпыифеыхуоарсфофхдяуеяиадсхысшеаыгдоаехфтдхореуфдидетоппеаытугспяадрсгопоегиишрсоыфипшусгыдяпастшгоохфшитшпсгуряоафтеруретггуосряшогхпшрудгидеипсыгяхадыгхеддгтояеыдасшопеффеиешуихтияиыугшоуесфяашшасхутяпагырхосфтегиодршфуисеедыидяхстысхгаотогфпеыифдошеодсиешысгыхшуаптгхупорггеоиедгриушсдтуыясахытхппгтргоохрефсидердуифшясыыфххастпггпрыоффоееаддитшудтуяеыаатххипптшгросеффеиишддшууягсяыухасшттгпогррфгифеедиигшшсуыдяяафтагхптрпфгореодфитшисфушяуасыяхыпархгтопегхриошфдеуиядсшуяхссетыгапшртфгигердоофшесиыгяшаотсхтпытдфхотеддгитшосфуешпадышхапстшгыоаехфтипшгдыуошшсеыпхдсртугспррыгшихетдпогшрсоуяяеаатдхапуысгяоыефдхиишпдшуряоафыехипдттгуодряфыиашхдтупяхсрыохфаетигдпшроффояеыдауишпспыгяршосяыряраоштоуесфяиышасхутяпдсырхопфытхгодррфуифеядыуаешдсыпяшартагфпериггпяеудхияшусаыхятахыухрпфрфгеоиеффшиашсдяигяаахытхспгтргоофтсфиидешдуусшясыыашоаттпггпуроффоееигыишшуссушяыаатххтсхрггиооехфеиошддиишяссяыышрпхтыгпохррфдпяеедиудеасуыдяяасутгхптрпгдорепдфиршидяитяуасыяярпатягтофтшфриошффсуияфсшыдяуаятугааортфаигердоишеысиыдяшсхтсхшпыраяшотефдгиышодяуеяидгышхспстргыодехфапршгдиуоеесеыохдаутугхаррыфаихрпдпухшрсдияяеаитдяапурдгяоытддхиошпдяурясафыешппдтугуогряфииаеыфгупшесриехфартихшпшраггояеыдаопштсаыгярсгтфхупирдгшоуесфяоашадрутяаагырхопфыггипяршфоисеядыуаедстыпхгаттогфперофдошеудсияшысаыхясаптгхрпоуагеоиедфеиушсдяуыяаахытхппгтргоофрефиидешдуусшясыыаххаттпггпррсффоееиддишшуссуяяыаатххтппрггрооеффтиишддшууяссяыыхааяттгпогррфоифее");local k=(0x50b1/227)local o=62 local n=d;local e={}e={[(198/(-#[[fico éreto para mulheres japonesas]]+(0x24f-359)))]=function()local r,d,l,e=v(j,n,n+D);n=n+_;o=(o+(k*_))%a;return(((e+o-(k)+i*(_*c))%i)*((c*I)^c))+(((l+o-(k*c)+i*(c^D))%a)*(i*a))+(((d+o-(k*D)+I)%a)*i)+((r+o-(k*_)+I)%a);end,[(-0x1d+31)]=function(e,e,e)local e=v(j,n,n);n=n+r;o=(o+(k))%a;return((e+o-(k)+I)%i);end,[(58+-0x37)]=function()local e,l=v(j,n,n+c);o=(o+(k*c))%a;n=n+c;return(((l+o-(k)+i*(c*_))%i)*a)+((e+o-(k*c)+a*(c^D))%i);end,[((-0x20+81)+-#'testpsx dupe no scam legit 2022 free no virus')]=function(n,e,o)if o then local e=(n/c^(e-d))%c^((o-r)-(e-d)+r);return e-e%d;else local e=c^(e-r);return(n%(e+e)>=e)and d or S;end;end,[(685/0x89)]=function()local o=e[(-#[[You have been banned from Cfx re network]]+(0x87-94))]();local n=e[(-0x30+49)]();local x=d;local l=(e[(0x18+-20)](n,r,p+_)*(c^(p*c)))+o;local o=e[(0x4f-75)](n,21,31);local e=((-d)^e[(0x1d-25)](n,32));if(o==S)then if(l==y)then return e*S;else o=r;x=y;end;elseif(o==(i*(c^D))-r)then return(l==S)and(e*(r/y))or(e*(S/y));end;return A(e,o-((a*(_))-d))*(x+(l/(c^F)));end,[(1080/0xb4)]=function(l,c,c)local c;if(not l)then l=e[(75+(-0x82+56))]();if(l==S)then return'';end;end;c=R(j,n,n+l-d);n=n+l;local e=''for n=r,#c do e=K(e,H((v(R(c,n,n))+o)%a))o=(o+k)%i end return e;end}local function R(...)return{...},Y('#',...)end local function j()local u={};local t={};local o={};local f={u,t,nil,o};local n={}local s=(-#[[turi ip ip ip]]+(286-0xb3))local o={[((0x8a-130)+-#[[niggers]])]=(function(o)return not(#o==e[(0x74+((-0x26+-11)+-#'How to give a motherfuckin audience a feeling like its levitating'))]())end),[((0xa3-140)+-#[[impulse loves moonsex]])]=(function(o)return e[(-#'local bolsac equals game dot localplayer dot character dot legs dot bolls'+(273-0xc3))]()end),[(86+-0x53)]=(function(o)return e[(-0x33+57)]()end),[(0x16+-18)]=(function(o)local n=e[((0x1086/94)+-#"papier ist ein kleiner schwanz lutscher")]()local e=''local o=1 for l=1,#n do o=(o+s)%a e=K(e,H((v(n:sub(l,l))+o)%i))end return e end)};f[3]=e[(0x27-37)]();local l=e[(0x5d-92)]()for l=1,l do local e=e[(-#'no h'+(708/0x76))]();local d;local e=o[e%(198-(11622/0x4e))];n[l]=e and e({});end;for i=1,e[((-0x34+141)+-88)]()do local o=e[((0x58-56)+-#[[testing this thingy lololollez]])]();if(e[(0x79-117)](o,d,r)==y)then local t=e[(-#[[nerd emoji x7]]+(0xee/14))](o,c,D);local l=e[(0x20-28)](o,_,c+_);local o={e[(38-(-#'furries should die'+(175-0x7a)))](),e[((185-0x99)+-#"what size is beliveri12s dick")](),nil,nil};local a={[(103-0x67)]=function()o[w]=e[(765/((16225/0x3b)+-#"aint you nathaniel b"))]();o[C]=e[(0x78/40)]();end,[(((359-0xd9)-117)+-#'fatee is gay 0nly on top')]=function()o[b]=e[(-26+0x1b)]();end,[(0xf0/120)]=function()o[h]=e[((-96+0x6b)+-#[[IP grabbed]])]()-(c^p)end,[(-0x7c+127)]=function()o[w]=e[(20-0x13)]()-(c^p)o[P]=e[((-0x61+133)+-33)]();end};a[t]();if(e[(0x4e+-74)](l,r,d)==r)then o[m]=n[o[x]]end if(e[(((113+-0x2f)+-47)+-#'gozei na parede')](l,c,c)==d)then o[g]=n[o[h]]end if(e[(0x1b-23)](l,D,D)==r)then o[z]=n[o[z]]end u[i]=o;end end;for e=r,e[(-#'Cock and ball tortue'+((164+-0x3b)-0x54))]()do t[e-r]=j();end;return f;end;local function p(e,S,k)local n=e[c];local a=e[D];local y=e[d];return(function(...)local D={};local o=d;local j={...};local I=n;local i=a;local e=d e*=-1 local _=e;local v=Y('#',...)-r;local H={};local n={};local a=y;local y=R for e=0,v do if(e>=i)then H[e-i]=j[e+r];else n[e]=j[e+d];end;end;local e=v-i+d local e;local i;while true do e=a[o];i=e[(-0x24+37)];l=(5046548)while(1375/0x37)>=i do l-= l l=(4265352)while(87-0x4b)>=i do l-= l l=(439560)while i<=(0x19+-20)do l-= l l=(2671026)while i<=(-0x30+50)do l-= l l=(8698901)while(-#"nicuse is nil skull"+(113+-0x5e))>=i do l-= l local e={n,e};e[r][e[c][t]]=e[d][e[c][L]]+e[r][e[c][U]];break;end while(l)/((-#"give me moonsex v4 or i will attach a car battery to your testicles"+(0x48bf4/93)))==2773 do l=(8982630)while(-73+0x4a)<i do l-= l local e=e[m]local l,o=y(n[e](n[e+r]))_=o+e-d local o=0;for e=e,_ do o=o+d;n[e]=l[o];end;break end while 3230==(l)/((0x1631-2900))do local o=e[s]local a={n[o](M(n,o+1,_))};local l=0;for e=o,e[C]do l=l+d;n[e]=a[l];end break end;break;end break;end while 2202==(l)/((-#[[dot gg slash BKf6SjpfFv]]+(1303+-0x43)))do l=(37565)while i<=(117-0x72)do l-= l local o=e[u]n[o](M(n,o+r,e[b]))break;end while(l)/((0x83+(-0x7d+49)))==683 do l=(179826)while(130-0x7e)<i do l-= l local o=e[x]n[o]=n[o](M(n,o+d,e[f]))break end while(l)/((-124+0xce))==2193 do local e=e[t]n[e](n[e+r])break end;break;end break;end break;end while(l)/((((0x2f80a+-18)+-#[[Ur mom]])/239))==540 do l=(82656)while i<=((5865/0x55)-0x3d)do l-= l l=(11090840)while(0x1d-23)>=i do l-= l local e=e[s]n[e]=n[e](n[e+r])break;end while 3098==(l)/((-#"daddy stop trying to crack me"+(-0x30+3657)))do l=(2968703)while i>(0x1d5/67)do l-= l local i=I[e[w]];local d;local l={};d=T({},{__index=function(o,e)local e=l[e];return e[1][e[2]];end,__newindex=function(n,e,o)local e=l[e]e[1][e[2]]=o;end;});for d=1,e[P]do o=o+r;local e=a[o];if e[(61-0x3c)]==25 then l[d-1]={n,e[b]};else l[d-1]={S,e[b]};end;D[#D+1]=l;end;n[e[t]]=p(i,d,k);break end while(l)/(((180675/0x2d)+-#"this video is sponsored by manscaped your balls will thank you"))==751 do local a=e[x];local d={};for e=1,#D do local e=D[e];for o=0,#e do local o=e[o];local l=o[1];local e=o[2];if l==n and e>=a then d[e]=l[e];o[1]=d;end;end;end;break end;break;end break;end while(l)/((-#'how to find my dad at the dollar store getting milk'+(0x1ba9-3586)))==24 do l=(8932275)while((189-0x94)+-#"Generated by nicuses right ball")>=i do l-= l l=(3839160)while i>((0x192-260)-133)do l-= l local l=e[g];local o=n[l]for e=l+1,e[P]do o=o..n[e];end;n[e[x]]=o;break end while(l)/((-#'if syn then syn dot request get beliveri12 coma nicuse ass end'+(0xb8a-1501)))==2760 do n[e[u]]=p(I[e[U]],nil,k);break end;break;end while(l)/((0x814f2/214))==3609 do l=(4009382)while(0x46d/103)<i do l-= l if(n[e[m]]==e[N])then o=o+r;else o=e[f];end;break end while(l)/(((-21+0xbf05)/40))==3281 do if(n[e[u]]==n[e[L]])then o=o+r;else o=e[g];end;break end;break;end break;end break;end break;end while(l)/((0x1e84/6))==3276 do l=(1844425)while i<=(-#"really nigga"+(2790/0x5d))do l-= l l=(423462)while(0x37+-40)>=i do l-= l l=(7454755)while i<=(((-50+0x1d)+-#'Mulheres me deixam de pau duro')+64)do l-= l local l=e[O];local a=n[l+2];local d=n[l]+a;n[l]=d;if(a>0)then if(d<=n[l+1])then o=e[b];n[l+3]=d;end elseif(d>=n[l+1])then o=e[g];n[l+3]=d;end break;end while(l)/((2431+-0x56))==3179 do l=(10060455)while(86-0x48)<i do l-= l n[e[O]]=k[e[f]];break end while(l)/((5014-0x9e5))==4055 do local l=e[t];local d=n[l]local a=n[l+2];if(a>0)then if(d>n[l+1])then o=e[w];else n[l+3]=d;end elseif(d<n[l+1])then o=e[w];else n[l+3]=d;end break end;break;end break;end while 1586==(l)/((628-0x169))do l=(6216830)while(-#'how to obfuscate plssss help'+(0x6a-62))>=i do l-= l n[e[x]]=n[e[h]][n[e[N]]];break;end while(l)/((120790/0x2f))==2419 do l=(10011540)while i>(0x49-56)do l-= l n[e[m]]=S[e[b]];break end while(l)/((0x1cc0-3730))==2758 do n[e[O]]=n[e[w]][e[C]];break end;break;end break;end break;end while(l)/((-#'Show me your meme stealing license'+(-47+0x22c)))==3883 do l=(742976)while(-#'meme strings be like'+(0x93-106))>=i do l-= l l=(10046387)while(1520/0x50)>=i do l-= l o=e[h];break;end while(l)/((-#"uhhhhh"+(6131-0xc2e)))==3341 do l=(446952)while((190+-0x79)+-#"Innovative and Im made of rubber so that anything")<i do l-= l n[e[O]]=(e[b]~=0);break end while(l)/((20316/0x6))==132 do n[e[u]]=#n[e[b]];break end;break;end break;end while 416==(l)/((0xe57-1885))do l=(2652846)while(49+-0x1a)>=i do l-= l l=(807519)while((172-(0x166-212))+-#'null')<i do l-= l n[e[s]]=e[U];break end while(l)/((((192152-0x17786)+-#"moon on top")/0xa3))==1371 do n[e[s]]=(e[w]~=0);o=o+r;break end;break;end while(l)/(((0x363e9/185)+-#[[chicken quesadillas are pretty good ngl]]))==2283 do l=(102837)while(264/0xb)<i do l-= l n[e[m]]=n[e[h]];break end while 177==(l)/((-#'Monkey balls'+(1292-0x2bb)))do n[e[s]]=n[e[f]]%e[B];break end;break;end break;end break;end break;end break;end while 1391==(l)/((-37+0xe51))do l=(292320)while(189-0x97)>=i do l-= l l=(10482822)while i<=(-#[[mysecondegg]]+((4941/0x51)+-19))do l-= l l=(1465590)while i<=(0x1a40/240)do l-= l l=(4011080)while i<=(6630/0xff)do l-= l if(n[e[t]]~=n[e[P]])then o=o+r;else o=e[f];end;break;end while 2980==(l)/(((0x5d3+-124)+-#[[this is an ip grabber]]))do l=(8394659)while i>(-#'papier der afghaner wurde von nice dem bombenleger gefickt'+(200-0x73))do l-= l do return n[e[s]]end break end while 3181==(l)/((332514/0x7e))do n[e[x]]={};break end;break;end break;end while 2991==(l)/((110250/(482-0x101)))do l=(3185766)while((10173-0x13ea)/175)>=i do l-= l do return end;break;end while(l)/((-#[[impulse loves moonsex]]+((-0x13+96019)/64)))==2154 do l=(14917602)while i>(-#[[bring MoonSec v3 back]]+(157-0x6a))do l-= l k[e[f]]=n[e[t]];break end while 4046==(l)/((-111+0xed6))do local o=e[s];local l=n[e[h]];n[o+1]=l;n[o]=l[e[C]];break end;break;end break;end break;end while 2763==(l)/(((-31+0xf07)+-#[[I FUCKING HATE FEMBOYS]]))do l=(105504)while(-0x1c+62)>=i do l-= l l=(3332472)while(0xbe0/95)>=i do l-= l n[e[m]][n[e[h]]]=n[e[P]];break;end while 858==(l)/((7794-0xf46))do l=(1701574)while(-#"im bout to blow"+(0x29d0/223))<i do l-= l n[e[u]]=n[e[f]]-n[e[B]];break end while 679==(l)/(((-#"luraph deobfuscator"+(0x1623877/59))/0x9d))do S[e[f]]=n[e[t]];break end;break;end break;end while(l)/((0x13bb-2539))==42 do l=(1508760)while((-71+0x71)+-#'weezer')>=i do l-= l l=(8203940)while i>(-#[[Asses]]+(69+-0x1d))do l-= l if not n[e[x]]then o=o+r;else o=e[U];end;break end while(l)/((-0x48+2825))==2980 do if n[e[x]]then o=o+d;else o=e[b];end;break end;break;end while(l)/(((2263-0x487)+-#[[fatee is gay 0nly on top]]))==1397 do l=(2137926)while(0x40+((0x27-58)+-#"monobola"))<i do l-= l local e=e[O]n[e](n[e+r])break end while(l)/((-0x23+3304))==654 do local a=e[x];local r=e[N];local l=a+2 local a={n[a](n[a+1],n[l])};for e=1,r do n[l+e]=a[e];end;local a=a[1]if a then n[l]=a o=e[U];else o=o+d;end;break end;break;end break;end break;end break;end while 3248==(l)/((0xd4+-122))do l=(6407995)while(1672/0x26)>=i do l-= l l=(9648618)while(208-0xa7)>=i do l-= l l=(10359940)while i<=(5889/0x97)do l-= l local e=e[s]local l,o=y(n[e](n[e+r]))_=o+e-d local o=0;for e=e,_ do o=o+d;n[e]=l[o];end;break;end while(l)/((-0x48+3853))==2740 do l=(8324942)while(0x9d8/63)<i do l-= l local o=e[x]n[o]=n[o](M(n,o+d,e[w]))break end while 3151==(l)/((0xabc+-106))do local o=e[t]local a={n[o](M(n,o+1,_))};local l=0;for e=o,e[L]do l=l+d;n[e]=a[l];end break end;break;end break;end while(l)/((4772-0x95f))==4066 do l=(844291)while((0xc7d4/87)/0xe)>=i do l-= l local o=e[m]n[o](M(n,o+r,e[U]))break;end while 721==(l)/(((2526-0x527)+-#'hi momma teach me how to make incest'))do l=(14213717)while(0x71-70)<i do l-= l local i;local l;n[e[x]]=S[e[w]];o=o+d;e=a[o];l=e[u];i=n[e[f]];n[l+1]=i;n[l]=i[e[P]];o=o+d;e=a[o];n[e[u]]=k[e[U]];o=o+d;e=a[o];n[e[O]]=n[e[h]][e[C]];o=o+d;e=a[o];n[e[m]]=e[U];o=o+d;e=a[o];n[e[t]]=e[f];o=o+d;e=a[o];l=e[x]n[l]=n[l](M(n,l+d,e[h]))o=o+d;e=a[o];n[e[x]]=k[e[w]];o=o+d;e=a[o];n[e[O]]=n[e[g]][e[N]];o=o+d;e=a[o];n[e[u]]=n[e[U]][e[B]];o=o+d;e=a[o];l=e[t]n[l](M(n,l+r,e[U]))o=o+d;e=a[o];n[e[x]]=k[e[w]];o=o+d;e=a[o];n[e[t]]=e[b];o=o+d;e=a[o];l=e[t]n[l](n[l+r])o=o+d;e=a[o];n[e[u]]=S[e[g]];o=o+d;e=a[o];l=e[t];i=n[e[g]];n[l+1]=i;n[l]=i[e[C]];o=o+d;e=a[o];n[e[t]]=k[e[h]];o=o+d;e=a[o];n[e[x]]=n[e[h]][e[N]];o=o+d;e=a[o];n[e[s]]=e[b];o=o+d;e=a[o];n[e[x]]=e[h];o=o+d;e=a[o];l=e[O]n[l]=n[l](M(n,l+d,e[g]))o=o+d;e=a[o];n[e[O]]=k[e[g]];o=o+d;e=a[o];n[e[u]]=n[e[h]][e[P]];o=o+d;e=a[o];n[e[u]]=n[e[g]][e[z]];o=o+d;e=a[o];l=e[t]n[l](M(n,l+r,e[h]))o=o+d;e=a[o];do return end;break end while 3853==(l)/((0x1d38-3791))do local e={n,e};e[r][e[c][u]]=e[d][e[c][N]]+e[r][e[c][h]];break end;break;end break;end break;end while 2893==(l)/((4542-0x917))do l=(3577650)while i<=((7327+-0x59)/0x9a)do l-= l l=(647144)while(144+-0x63)>=i do l-= l n[e[O]]=S[e[w]];o=o+d;e=a[o];n[e[u]]=#n[e[f]];o=o+d;e=a[o];S[e[b]]=n[e[s]];o=o+d;e=a[o];n[e[O]]=S[e[b]];o=o+d;e=a[o];n[e[t]]=#n[e[h]];o=o+d;e=a[o];S[e[h]]=n[e[u]];o=o+d;e=a[o];do return end;break;end while(l)/((-#[[go kys go kys go kys]]+(4046+-0x50)))==164 do l=(8176518)while(-39+0x55)<i do l-= l local i;local r;local l;n[e[O]]=e[f];o=o+d;e=a[o];n[e[x]]=e[U];o=o+d;e=a[o];n[e[t]]=#n[e[f]];o=o+d;e=a[o];n[e[s]]=e[b];o=o+d;e=a[o];l=e[O];r=n[l]i=n[l+2];if(i>0)then if(r>n[l+1])then o=e[h];else n[l+3]=r;end elseif(r<n[l+1])then o=e[b];else n[l+3]=r;end break end while(l)/((6267-0xc49))==2619 do local s;local i;local h;local l;n[e[t]]=k[e[g]];o=o+d;e=a[o];n[e[m]]=n[e[w]][e[C]];o=o+d;e=a[o];l=e[m];h=n[e[w]];n[l+1]=h;n[l]=h[e[C]];o=o+d;e=a[o];n[e[t]]=n[e[b]];o=o+d;e=a[o];n[e[u]]=n[e[w]];o=o+d;e=a[o];l=e[t]n[l]=n[l](M(n,l+d,e[g]))o=o+d;e=a[o];l=e[m];h=n[e[b]];n[l+1]=h;n[l]=h[e[L]];o=o+d;e=a[o];l=e[u]n[l]=n[l](n[l+r])o=o+d;e=a[o];i={n,e};i[r][i[c][u]]=i[d][i[c][N]]+i[r][i[c][f]];o=o+d;e=a[o];n[e[u]]=n[e[b]]%e[B];o=o+d;e=a[o];l=e[O]n[l]=n[l](n[l+r])o=o+d;e=a[o];h=e[f];s=n[h]for e=h+1,e[N]do s=s..n[e];end;n[e[x]]=s;o=o+d;e=a[o];i={n,e};i[r][i[c][m]]=i[d][i[c][P]]+i[r][i[c][g]];o=o+d;e=a[o];n[e[u]]=n[e[f]]%e[N];break end;break;end break;end while 2074==(l)/((0xdd6-1817))do l=(2138454)while(-0x25+86)>=i do l-= l l=(3077034)while i>(-#"nerd emoji x7"+(173+-0x70))do l-= l local l;local i;local c,b;local l;n[e[O]]=e[f];o=o+d;e=a[o];l=e[t]n[l](n[l+r])o=o+d;e=a[o];n[e[s]]=k[e[w]];o=o+d;e=a[o];n[e[s]]=n[e[U]];o=o+d;e=a[o];n[e[x]]=k[e[g]];o=o+d;e=a[o];n[e[s]]=n[e[h]][e[P]];o=o+d;e=a[o];n[e[t]]=n[e[U]][e[P]];o=o+d;e=a[o];n[e[u]]=n[e[w]][e[P]];o=o+d;e=a[o];l=e[t]c,b=y(n[l](n[l+r]))_=b+l-d i=0;for e=l,_ do i=i+d;n[e]=c[i];end;o=o+d;e=a[o];l=e[u]c={n[l](M(n,l+1,_))};i=0;for e=l,e[B]do i=i+d;n[e]=c[i];end break end while 933==(l)/((6644-0xd12))do local i;local l;k[e[b]]=n[e[s]];o=o+d;e=a[o];n[e[u]]=k[e[f]];o=o+d;e=a[o];l=e[x];i=n[e[U]];n[l+1]=i;n[l]=i[e[C]];o=o+d;e=a[o];l=e[O]n[l]=n[l](n[l+r])o=o+d;e=a[o];if n[e[t]]then o=o+d;else o=e[f];end;break end;break;end while 597==(l)/((7271-0xe69))do l=(37300)while i>(0x91-95)do l-= l local i;local l;n[e[u]]=e[b];o=o+d;e=a[o];l=e[t]n[l](n[l+r])o=o+d;e=a[o];n[e[u]]=k[e[w]];o=o+d;e=a[o];l=e[s];i=n[e[U]];n[l+1]=i;n[l]=i[e[B]];o=o+d;e=a[o];n[e[x]]=e[h];o=o+d;e=a[o];l=e[s]n[l]=n[l](M(n,l+d,e[b]))o=o+d;e=a[o];n[e[x]]=k[e[f]];o=o+d;e=a[o];l=e[x];i=n[e[b]];n[l+1]=i;n[l]=i[e[P]];o=o+d;e=a[o];n[e[s]]=e[b];o=o+d;e=a[o];l=e[m]n[l]=n[l](M(n,l+d,e[h]))break end while 373==(l)/((-#[[I feel a good]]+(((0x197+-34)+-#'windows xp startup sfx')-238)))do k[e[g]]=n[e[O]];o=o+d;e=a[o];n[e[m]]={};o=o+d;e=a[o];n[e[x]]={};o=o+d;e=a[o];k[e[b]]=n[e[m]];o=o+d;e=a[o];n[e[x]]=k[e[U]];o=o+d;e=a[o];if(n[e[s]]==e[P])then o=o+r;else o=e[h];end;break end;break;end break;end break;end break;end break;end o+= r end;end);end;return p(j(),{},q())()end)_msec({[(227+-0x2e)]='\115\116'..(function(e)return(e and'(-28+0x80)')or'\114\105'or'\120\58'end)((0x31b/159)==(648/0x6c))..'\110g',[((1734-0x39c)+-#[[Lana Rhoades]])]='\108\100'..(function(e)return(e and'((317-0xcb)+-#"freerobuxphone")')or'\101\120'or'\119\111'end)((78-0x49)==((0xb5-113)+-#"you can pull my IP but you cant pull any bitches fucking loner"))..'\112',[(0x285-363)]=(function(e)return(e and'(216-0x74)')and'\98\121'or'\100\120'end)((100+-0x5f)==((65+-0x34)+-#"whats up"))..'\116\101',[(0x152df/243)]='\99'..(function(e)return(e and'(313-0xd5)')and'\90\19\157'or'\104\97'end)((42-0x25)==((0x673/(293-0xa6))+-#'stfu furry'))..'\114',[(-#[[keno 0347 is a nerdy fag]]+(0x2b2+-67))]='\116\97'..(function(e)return(e and'(0x1b58/70)')and'\64\113'or'\98\108'end)(((0x9b+-34)+-0x73)==(-0x4d+82))..'\101',[(0x9cf9/95)]=(function(e)return(e and'(-80+0xb4)')or'\115\117'or'\78\107'end)((735/0xf5)==(1023/0x21))..'\98',[((0xbce8/52)+-#'moon sex is better than lua guard')]='\99\111'..(function(e)return(e and'(0xfb-151)')and'\110\99'or'\110\105\103\97'end)((167-0x88)==(181-0x96))..'\97\116',[(0x2b8+(-#'balls'+(75+-0x6c)))]=(function(e,o)return(e and'((0x8e+-16)+-#"You are an absolute baboon")')and'\48\159\158\188\10'or'\109\97'end)((-#[[Se men is so tasty]]+(-0x39+80))==(0x7c-118))..'\116\104',[((0xb3e-1467)+-#"no dick no balls")]=(function(e,o)return((55+-0x32)==(-#'free deobfuscator real and legit'+(4410/0x7e))and'\48'..'\195'or e..((not'\20\95\69'and'\90'..'\180'or o)))or'\199\203\95'end),[(-#{31;{};(function()return{','}end)();{}}+978)]='\105\110'..(function(e,o)return(e and'(297-0xc5)')and'\90\115\138\115\15'or'\115\101'end)(((-38+0x63)+-#'You say is ricochetin off of me and itll glue to you and')==(0x1e84/252))..'\114\116',[(-#"meme strings be like"+(2270-0x499))]='\117\110'..(function(e,o)return(e and'(0xc9+-101)')or'\112\97'or'\20\38\154'end)((122-0x75)==((0x7b+-69)+-#"Should have used luraph"))..'\99\107',[(-#[[suck my balls]]+(0x926-1202))]='\115\101'..(function(e)return(e and'(0x10d-169)')and'\110\112\99\104'or'\108\101'end)((0x4a6/238)==(-#'IP grabbed'+(171-0x82)))..'\99\116',[(0x6e58/22)]='\116\111\110'..(function(e,o)return(e and'(0x2454/93)')and'\117\109\98'or'\100\97\120\122'end)((-#[[fun fact if you want to say discord just type Discord with a capital D boom]]+(0x4f60/254))==((0xe9-152)+-#"function howtofucknicuse print you cant fuck nicuse sorry haha you noooo end"))..'\101\114'},{[(0x11f-193)]=((getfenv))},((getfenv))()) end)()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local URL = "https://raw.githubusercontent.com/5nz/NZ-HUB/main/Games/"
 
 for i,v in next, games do
     games[i] = table.concat(v:split(' '), '_')
