@@ -8,11 +8,11 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-
+getgenv().Auto = false;
 
 local Main = Window:MakeTab({
 	Name = "Main",
-	Icon = "rbxassetid://101009288538",
+	Icon = "rbxassetid://10100928853",
 	PremiumOnly = false
 })
 
@@ -20,13 +20,18 @@ Main:AddToggle({
 	Name = "This is a toggle!",
 	Default = false,
 	Callback = function(Value)
-        _G.Auto = Value
-        Spam()
+        getgenv().Auto = Value
+        print("Auto Tap Is: ", Value)
+        if Value then
+            Spam()
+        end
 	end    
 })
 function Spam()
-    if _G.Auto == true then
-        print("Fuck you")
-        wait()
-    end    
+    spawn(function()
+        while getgenv().Auto == true do
+            print("Fuck Niggers i dont like them")
+            wait()
+    end
+    end)
 end
